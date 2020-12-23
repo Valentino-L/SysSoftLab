@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="4002949459">
+        <error id="asctimeCalled" severity="style" msg="Obsolete function &apos;asctime&apos; called. It is recommended to use &apos;strftime&apos; instead." verbose="Obsolete function &apos;asctime&apos; called. It is recommended to use &apos;strftime&apos; instead." cwe="477">
+            <location file="main.c" line="68" column="35"/>
+        </error>
+        <error id="unreachableCode" severity="style" msg="Statements following return, break, continue, goto or throw will never be executed." verbose="Statements following return, break, continue, goto or throw will never be executed." cwe="561">
+            <location file="main.c" line="102" column="13"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="sbuffer.h:44:5" call-funcname="sbuffer_init" call-argnr="1" file="main.c" line="89" col="25" call-argexpr="&buff" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="sbuffer.h:51:5" call-funcname="sbuffer_free" call-argnr="1" file="main.c" line="98" col="25" call-argexpr="&buff" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="connmgr.h:37:6" call-funcname="connmgr_listen" call-argnr="5" file="main.c" line="111" col="19" call-argexpr="&read_thread_alive" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="sensor_db.h:37:9" call-funcname="init_connection" call-argnr="2" file="main.c" line="130" col="35" call-argexpr="&read_thread_alive" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="sensor_db.h:112:5" call-funcname="insert_sensor_from_buffer" call-argnr="6" file="main.c" line="131" col="30" call-argexpr="&read_thread_alive" call-argvaluetype="7" call-argvalue="4"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="34"/>
+    <functiondecl functionName="writer_thread" lineNumber="109"/>
+    <functiondecl functionName="data_thread" lineNumber="118"/>
+    <functiondecl functionName="SQL_thread" lineNumber="128"/>
+    <functioncall functionName="EXIT_FAILURE"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="SQL_thread"/>
+    <functioncall functionName="asctime"/>
+    <functioncall functionName="atoi"/>
+    <functioncall functionName="buff"/>
+    <functioncall functionName="buffer_cleanup_lock"/>
+    <functioncall functionName="condition"/>
+    <functioncall functionName="conn"/>
+    <functioncall functionName="connmgr_free"/>
+    <functioncall functionName="connmgr_listen"/>
+    <functioncall functionName="data_thread"/>
+    <functioncall functionName="datamgr_free"/>
+    <functioncall functionName="datamgr_parse_buffer"/>
+    <functioncall functionName="disconnect"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="fclose"/>
+    <functioncall functionName="fflush"/>
+    <functioncall functionName="fgets"/>
+    <functioncall functionName="fifo"/>
+    <functioncall functionName="fopen"/>
+    <functioncall functionName="fork"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="init_connection"/>
+    <functioncall functionName="insert_sensor_from_buffer"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="localtime"/>
+    <functioncall functionName="logger_buff"/>
+    <functioncall functionName="logger_file"/>
+    <functioncall functionName="long_time"/>
+    <functioncall functionName="mkfifo"/>
+    <functioncall functionName="perror"/>
+    <functioncall functionName="port"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="pthread_create"/>
+    <functioncall functionName="pthread_detach"/>
+    <functioncall functionName="pthread_exit"/>
+    <functioncall functionName="pthread_join"/>
+    <functioncall functionName="r_threads"/>
+    <functioncall functionName="read_thread_alive"/>
+    <functioncall functionName="result"/>
+    <functioncall functionName="sbuffer_free"/>
+    <functioncall functionName="sbuffer_init"/>
+    <functioncall functionName="sem_init"/>
+    <functioncall functionName="sema_lock"/>
+    <functioncall functionName="sensor_map"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="struct_time"/>
+    <functioncall functionName="temp_time"/>
+    <functioncall functionName="time"/>
+    <functioncall functionName="w_thread"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="write_logger"/>
+    <functioncall functionName="writer_thread"/>
+  </FileInfo>
+</analyzerinfo>

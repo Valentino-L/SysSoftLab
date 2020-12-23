@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3429948821">
+  <FileInfo check="ctu">
+<function-call call-id="sbuffer.h:76:6" call-funcname="write_logger" call-argnr="3" file="sbuffer.c" line="123" col="25" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="sbuffer.h:78:17" my-argnr="1" my-argname="buffer" file="sbuffer.c" line="21" col="10" value="0"/>
+    <unsafe-usage my-id="sbuffer.h:80:17" my-argnr="1" my-argname="buffer" file="sbuffer.c" line="29" col="10" value="0"/>
+    <unsafe-usage my-id="sbuffer.h:72:16" my-argnr="1" my-argname="buffer" file="sbuffer.c" line="37" col="10" value="0"/>
+    <unsafe-usage my-id="sbuffer.h:70:16" my-argnr="1" my-argname="buffer" file="sbuffer.c" line="45" col="10" value="0"/>
+    <unsafe-usage my-id="sbuffer.h:44:5" my-argnr="1" my-argname="buffer" file="sbuffer.c" line="52" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="sbuffer.h:78:17" my-argnr="1" my-argname="buffer" file="sbuffer.c" line="21" col="10" value="0"/>
+    <unsafe-usage my-id="sbuffer.h:80:17" my-argnr="1" my-argname="buffer" file="sbuffer.c" line="29" col="10" value="0"/>
+    <unsafe-usage my-id="sbuffer.h:72:16" my-argnr="1" my-argname="buffer" file="sbuffer.c" line="37" col="10" value="0"/>
+    <unsafe-usage my-id="sbuffer.h:70:16" my-argnr="1" my-argname="buffer" file="sbuffer.c" line="45" col="10" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="sbuffer_get_first_node" lineNumber="19"/>
+    <functiondecl functionName="sbuffer_get_last_node" lineNumber="27"/>
+    <functiondecl functionName="sbuffer_get_first_node_data" lineNumber="35"/>
+    <functiondecl functionName="sbuffer_get_last_node_data" lineNumber="43"/>
+    <functiondecl functionName="sbuffer_init" lineNumber="51"/>
+    <functiondecl functionName="sbuffer_free" lineNumber="59"/>
+    <functiondecl functionName="sbuffer_remove" lineNumber="74"/>
+    <functiondecl functionName="sbuffer_insert" lineNumber="91"/>
+    <functiondecl functionName="debug_print_buffer" lineNumber="109"/>
+    <functiondecl functionName="write_logger" lineNumber="132"/>
+    <functioncall functionName="EXIT_FAILURE"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="asprintf"/>
+    <functioncall functionName="buffer"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="data_used"/>
+    <functioncall functionName="dummy"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="fflush"/>
+    <functioncall functionName="fifo"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="fputs"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="head"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="message"/>
+    <functioncall functionName="mkfifo"/>
+    <functioncall functionName="next"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="sql_used"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="stdout"/>
+    <functioncall functionName="tail"/>
+    <functioncall functionName="temp_string"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="write_logger"/>
+  </FileInfo>
+</analyzerinfo>

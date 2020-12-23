@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.1"/>
+    <errors>
+        <error id="ConfigurationNotChecked" severity="information" msg="Skipping configuration &amp;#039;TIMEOUT&amp;#039; since the value of &amp;#039;TIMEOUT&amp;#039; is unknown. Use -D if you want to check it. You can use -U to skip it explicitly." verbose="Skipping configuration &amp;#039;TIMEOUT&amp;#039; since the value of &amp;#039;TIMEOUT&amp;#039; is unknown. Use -D if you want to check it. You can use -U to skip it explicitly." sinceDate="21/12/2020">
+            <location file="connmgr.c" line="116"/>
+        </error>
+        <error id="ConfigurationNotChecked" severity="information" msg="Skipping configuration &amp;#039;TIMEOUT&amp;#039; since the value of &amp;#039;TIMEOUT&amp;#039; is unknown. Use -D if you want to check it. You can use -U to skip it explicitly." verbose="Skipping configuration &amp;#039;TIMEOUT&amp;#039; since the value of &amp;#039;TIMEOUT&amp;#039; is unknown. Use -D if you want to check it. You can use -U to skip it explicitly." sinceDate="21/12/2020">
+            <location file="connmgr.c" line="140"/>
+        </error>
+        <error id="ConfigurationNotChecked" severity="information" msg="Skipping configuration &amp;#039;DATAMGR_H_;SET_MAX_TEMP;DATAMGR_H_;SET_MIN_TEMP&amp;#039; since the value of &amp;#039;SET_MAX_TEMP&amp;#039; is unknown. Use -D if you want to check it. You can use -U to skip it explicitly." verbose="Skipping configuration &amp;#039;DATAMGR_H_;SET_MAX_TEMP;DATAMGR_H_;SET_MIN_TEMP&amp;#039; since the value of &amp;#039;SET_MAX_TEMP&amp;#039; is unknown. Use -D if you want to check it. You can use -U to skip it explicitly." sinceDate="21/12/2020">
+            <location file="datamgr.c" line="250"/>
+        </error>
+        <error id="ConfigurationNotChecked" severity="information" msg="Skipping configuration &amp;#039;DATAMGR_H_;SET_MAX_TEMP;DATAMGR_H_;SET_MIN_TEMP&amp;#039; since the value of &amp;#039;SET_MIN_TEMP&amp;#039; is unknown. Use -D if you want to check it. You can use -U to skip it explicitly." verbose="Skipping configuration &amp;#039;DATAMGR_H_;SET_MAX_TEMP;DATAMGR_H_;SET_MIN_TEMP&amp;#039; since the value of &amp;#039;SET_MIN_TEMP&amp;#039; is unknown. Use -D if you want to check it. You can use -U to skip it explicitly." sinceDate="21/12/2020">
+            <location file="datamgr.c" line="258"/>
+        </error>
+        <error id="asctimeCalled" severity="style" msg="Obsolete function &amp;#039;asctime&amp;#039; called. It is recommended to use &amp;#039;strftime&amp;#039; instead." verbose="Obsolete function &amp;#039;asctime&amp;#039; called. It is recommended to use &amp;#039;strftime&amp;#039; instead." cwe="477" sinceDate="21/12/2020">
+            <location file="main.c" line="68"/>
+        </error>
+        <error id="unreachableCode" severity="style" msg="Statements following return, break, continue, goto or throw will never be executed." verbose="Statements following return, break, continue, goto or throw will never be executed." cwe="561" sinceDate="21/12/2020">
+            <location file="main.c" line="102"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &amp;#039;i&amp;#039; is always true" verbose="Condition &amp;#039;i&amp;#039; is always true" cwe="571" sinceDate="21/12/2020">
+            <location file="sensor_node.c" line="92" info="Condition &amp;#039;i&amp;#039; is always true"/>
+            <location file="sensor_node.c" line="91" info="Assignment &amp;#039;i=1&amp;#039;, assigned value is 1"/>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &amp;#039;list==NULL&amp;#039; is redundant or there is possible null pointer dereference: list." verbose="Either the condition &amp;#039;list==NULL&amp;#039; is redundant or there is possible null pointer dereference: list." cwe="476" sinceDate="21/12/2020">
+            <location file="lib/dplist.c" line="72" info="Null pointer dereference"/>
+            <location file="lib/dplist.c" line="70" info="Assignment &amp;#039;list=malloc(sizeof(struct dplist))&amp;#039;, assigned value is 0"/>
+            <location file="lib/dplist.c" line="71" info="Assuming that condition &amp;#039;list==NULL&amp;#039; is not redundant"/>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &amp;#039;list==NULL&amp;#039; is redundant or there is possible null pointer dereference: list." verbose="Either the condition &amp;#039;list==NULL&amp;#039; is redundant or there is possible null pointer dereference: list." cwe="476" sinceDate="21/12/2020">
+            <location file="lib/dplist.c" line="73" info="Null pointer dereference"/>
+            <location file="lib/dplist.c" line="70" info="Assignment &amp;#039;list=malloc(sizeof(struct dplist))&amp;#039;, assigned value is 0"/>
+            <location file="lib/dplist.c" line="71" info="Assuming that condition &amp;#039;list==NULL&amp;#039; is not redundant"/>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &amp;#039;list==NULL&amp;#039; is redundant or there is possible null pointer dereference: list." verbose="Either the condition &amp;#039;list==NULL&amp;#039; is redundant or there is possible null pointer dereference: list." cwe="476" sinceDate="21/12/2020">
+            <location file="lib/dplist.c" line="74" info="Null pointer dereference"/>
+            <location file="lib/dplist.c" line="70" info="Assignment &amp;#039;list=malloc(sizeof(struct dplist))&amp;#039;, assigned value is 0"/>
+            <location file="lib/dplist.c" line="71" info="Assuming that condition &amp;#039;list==NULL&amp;#039; is not redundant"/>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &amp;#039;list==NULL&amp;#039; is redundant or there is possible null pointer dereference: list." verbose="Either the condition &amp;#039;list==NULL&amp;#039; is redundant or there is possible null pointer dereference: list." cwe="476" sinceDate="21/12/2020">
+            <location file="lib/dplist.c" line="75" info="Null pointer dereference"/>
+            <location file="lib/dplist.c" line="70" info="Assignment &amp;#039;list=malloc(sizeof(struct dplist))&amp;#039;, assigned value is 0"/>
+            <location file="lib/dplist.c" line="71" info="Assuming that condition &amp;#039;list==NULL&amp;#039; is not redundant"/>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &amp;#039;list_node==NULL&amp;#039; is redundant or there is possible null pointer dereference: list_node." verbose="Either the condition &amp;#039;list_node==NULL&amp;#039; is redundant or there is possible null pointer dereference: list_node." cwe="476" sinceDate="21/12/2020">
+            <location file="lib/dplist.c" line="151" info="Null pointer dereference"/>
+            <location file="lib/dplist.c" line="144" info="Assignment &amp;#039;list_node=malloc(sizeof(struct dplist_node))&amp;#039;, assigned value is 0"/>
+            <location file="lib/dplist.c" line="145" info="Assuming that condition &amp;#039;list_node==NULL&amp;#039; is not redundant"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;dpl_create&amp;#039; is never used." verbose="The function &amp;#039;dpl_create&amp;#039; is never used." cwe="561" sinceDate="21/12/2020">
+            <location file="lib/dplist.c" line="63"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;dpl_free&amp;#039; is never used." verbose="The function &amp;#039;dpl_free&amp;#039; is never used." cwe="561" sinceDate="21/12/2020">
+            <location file="lib/dplist.c" line="79"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;dpl_get_element_at_index&amp;#039; is never used." verbose="The function &amp;#039;dpl_get_element_at_index&amp;#039; is never used." cwe="561" sinceDate="21/12/2020">
+            <location file="lib/dplist.c" line="214"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;dpl_get_element_at_reference&amp;#039; is never used." verbose="The function &amp;#039;dpl_get_element_at_reference&amp;#039; is never used." cwe="561" sinceDate="21/12/2020">
+            <location file="lib/dplist.c" line="322"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;dpl_get_first_reference&amp;#039; is never used." verbose="The function &amp;#039;dpl_get_first_reference&amp;#039; is never used." cwe="561" sinceDate="21/12/2020">
+            <location file="lib/dplist.c" line="243"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;dpl_get_last_reference&amp;#039; is never used." verbose="The function &amp;#039;dpl_get_last_reference&amp;#039; is never used." cwe="561" sinceDate="21/12/2020">
+            <location file="lib/dplist.c" line="248"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;dpl_get_next_reference&amp;#039; is never used." verbose="The function &amp;#039;dpl_get_next_reference&amp;#039; is never used." cwe="561" sinceDate="21/12/2020">
+            <location file="lib/dplist.c" line="263"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;dpl_get_previous_reference&amp;#039; is never used." verbose="The function &amp;#039;dpl_get_previous_reference&amp;#039; is never used." cwe="561" sinceDate="21/12/2020">
+            <location file="lib/dplist.c" line="272"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;dpl_insert_at_reference&amp;#039; is never used." verbose="The function &amp;#039;dpl_insert_at_reference&amp;#039; is never used." cwe="561" sinceDate="21/12/2020">
+            <location file="lib/dplist.c" line="289"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;dpl_insert_sorted&amp;#039; is never used." verbose="The function &amp;#039;dpl_insert_sorted&amp;#039; is never used." cwe="561" sinceDate="21/12/2020">
+            <location file="lib/dplist.c" line="331"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;dpl_remove_at_reference&amp;#039; is never used." verbose="The function &amp;#039;dpl_remove_at_reference&amp;#039; is never used." cwe="561" sinceDate="21/12/2020">
+            <location file="lib/dplist.c" line="304"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;dpl_remove_element&amp;#039; is never used." verbose="The function &amp;#039;dpl_remove_element&amp;#039; is never used." cwe="561" sinceDate="21/12/2020">
+            <location file="lib/dplist.c" line="312"/>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &amp;#039;buf_size==0&amp;#039; is redundant or there is possible null pointer dereference: buf_size." verbose="Either the condition &amp;#039;buf_size==0&amp;#039; is redundant or there is possible null pointer dereference: buf_size." cwe="476" sinceDate="21/12/2020">
+            <location file="lib/tcpsock.c" line="186" info="Null pointer dereference"/>
+            <location file="lib/tcpsock.c" line="184" info="Assuming that condition &amp;#039;buf_size==0&amp;#039; is not redundant"/>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &amp;#039;buf_size==0&amp;#039; is redundant or there is possible null pointer dereference: buf_size." verbose="Either the condition &amp;#039;buf_size==0&amp;#039; is redundant or there is possible null pointer dereference: buf_size." cwe="476" sinceDate="21/12/2020">
+            <location file="lib/tcpsock.c" line="208" info="Null pointer dereference"/>
+            <location file="lib/tcpsock.c" line="206" info="Assuming that condition &amp;#039;buf_size==0&amp;#039; is not redundant"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &amp;#039;result&amp;#039; can be reduced." verbose="The scope of the variable &amp;#039;result&amp;#039; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &amp;#039;i&amp;#039; can be reduced:&#10;void f(int x)&#10;{&#10;    int i = 0;&#10;    if (x) {&#10;        // it&amp;#039;s safe to move &amp;#039;int i = 0;&amp;#039; here&#10;        for (int n = 0; n &amp;lt; 10; ++n) {&#10;            // it is possible but not safe to move &amp;#039;int i = 0;&amp;#039; here&#10;            do_something(&amp;amp;i);&#10;        }&#10;    }&#10;}&#10;When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" sinceDate="21/12/2020">
+            <location file="lib/tcpsock.c" line="128"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;result&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;result&amp;#039; is assigned a value that is never used." cwe="563" sinceDate="21/12/2020">
+            <location file="lib/tcpsock.c" line="143"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;tcp_get_ip_addr&amp;#039; is never used." verbose="The function &amp;#039;tcp_get_ip_addr&amp;#039; is never used." cwe="561" sinceDate="21/12/2020">
+            <location file="lib/tcpsock.c" line="221"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;tcp_get_port&amp;#039; is never used." verbose="The function &amp;#039;tcp_get_port&amp;#039; is never used." cwe="561" sinceDate="21/12/2020">
+            <location file="lib/tcpsock.c" line="228"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;tcp_get_sd&amp;#039; is never used." verbose="The function &amp;#039;tcp_get_sd&amp;#039; is never used." cwe="561" sinceDate="21/12/2020">
+            <location file="lib/tcpsock.c" line="235"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;tcp_passive_open&amp;#039; is never used." verbose="The function &amp;#039;tcp_passive_open&amp;#039; is never used." cwe="561" sinceDate="21/12/2020">
+            <location file="lib/tcpsock.c" line="63"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;tcp_receive&amp;#039; is never used." verbose="The function &amp;#039;tcp_receive&amp;#039; is never used." cwe="561" sinceDate="21/12/2020">
+            <location file="lib/tcpsock.c" line="203"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;tcp_wait_for_connection&amp;#039; is never used." verbose="The function &amp;#039;tcp_wait_for_connection&amp;#039; is never used." cwe="561" sinceDate="21/12/2020">
+            <location file="lib/tcpsock.c" line="158"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;find_sensor_after_timestamp&amp;#039; is never used." verbose="The function &amp;#039;find_sensor_after_timestamp&amp;#039; is never used." cwe="561" sinceDate="21/12/2020">
+            <location file="sensor_db.c" line="270"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;find_sensor_all&amp;#039; is never used." verbose="The function &amp;#039;find_sensor_all&amp;#039; is never used." cwe="561" sinceDate="21/12/2020">
+            <location file="sensor_db.c" line="218"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;find_sensor_by_timestamp&amp;#039; is never used." verbose="The function &amp;#039;find_sensor_by_timestamp&amp;#039; is never used." cwe="561" sinceDate="21/12/2020">
+            <location file="sensor_db.c" line="257"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;find_sensor_by_value&amp;#039; is never used." verbose="The function &amp;#039;find_sensor_by_value&amp;#039; is never used." cwe="561" sinceDate="21/12/2020">
+            <location file="sensor_db.c" line="231"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;find_sensor_exceed_value&amp;#039; is never used." verbose="The function &amp;#039;find_sensor_exceed_value&amp;#039; is never used." cwe="561" sinceDate="21/12/2020">
+            <location file="sensor_db.c" line="244"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;sbuffer_get_first_node_data&amp;#039; is never used." verbose="The function &amp;#039;sbuffer_get_first_node_data&amp;#039; is never used." cwe="561" sinceDate="21/12/2020">
+            <location file="sbuffer.c" line="35"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;sbuffer_get_last_node&amp;#039; is never used." verbose="The function &amp;#039;sbuffer_get_last_node&amp;#039; is never used." cwe="561" sinceDate="21/12/2020">
+            <location file="sbuffer.c" line="27"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;sbuffer_get_last_node_data&amp;#039; is never used." verbose="The function &amp;#039;sbuffer_get_last_node_data&amp;#039; is never used." cwe="561" sinceDate="21/12/2020">
+            <location file="sbuffer.c" line="43"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;sbuffer_insert&amp;#039; is never used." verbose="The function &amp;#039;sbuffer_insert&amp;#039; is never used." cwe="561" sinceDate="21/12/2020">
+            <location file="sbuffer.c" line="91"/>
+        </error>
+    </errors>
+</results>

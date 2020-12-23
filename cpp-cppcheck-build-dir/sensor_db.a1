@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2698314946">
+  <FileInfo check="ctu">
+<function-call call-id="sbuffer.h:76:6" call-funcname="write_logger" call-argnr="3" file="sensor_db.c" line="124" col="17" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="sbuffer.h:78:17" call-funcname="sbuffer_get_first_node" call-argnr="1" file="sensor_db.c" line="155" col="48" call-argexpr="&buffer" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="sbuffer.h:78:17" call-funcname="sbuffer_get_first_node" call-argnr="1" file="sensor_db.c" line="158" col="34" call-argexpr="&buffer" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="sbuffer.h:78:17" call-funcname="sbuffer_get_first_node" call-argnr="1" file="sensor_db.c" line="160" col="66" call-argexpr="&buffer" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="sbuffer.h:78:17" call-funcname="sbuffer_get_first_node" call-argnr="1" file="sensor_db.c" line="160" col="126" call-argexpr="&buffer" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="sbuffer.h:78:17" call-funcname="sbuffer_get_first_node" call-argnr="1" file="sensor_db.c" line="170" col="42" call-argexpr="&buffer" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="sbuffer.h:78:17" call-funcname="sbuffer_get_first_node" call-argnr="1" file="sensor_db.c" line="171" col="87" call-argexpr="&buffer" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="sbuffer.h:78:17" call-funcname="sbuffer_get_first_node" call-argnr="1" file="sensor_db.c" line="174" col="38" call-argexpr="&buffer" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="sbuffer.h:78:17" call-funcname="sbuffer_get_first_node" call-argnr="1" file="sensor_db.c" line="176" col="58" call-argexpr="&buffer" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="connect_to_database" lineNumber="23"/>
+    <functiondecl functionName="init_connection" lineNumber="45"/>
+    <functiondecl functionName="disconnect" lineNumber="103"/>
+    <functiondecl functionName="insert_sensor" lineNumber="108"/>
+    <functiondecl functionName="insert_sensor_from_buffer" lineNumber="132"/>
+    <functiondecl functionName="find_sensor_all" lineNumber="218"/>
+    <functiondecl functionName="find_sensor_by_value" lineNumber="231"/>
+    <functiondecl functionName="find_sensor_exceed_value" lineNumber="244"/>
+    <functiondecl functionName="find_sensor_by_timestamp" lineNumber="257"/>
+    <functiondecl functionName="find_sensor_after_timestamp" lineNumber="270"/>
+    <functiondecl functionName="check_connection" lineNumber="283"/>
+    <functioncall functionName="EXIT_FAILURE"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="asprintf"/>
+    <functioncall functionName="buffer"/>
+    <functioncall functionName="buffer_cleaup_lock"/>
+    <functioncall functionName="check_connection"/>
+    <functioncall functionName="condition"/>
+    <functioncall functionName="conn"/>
+    <functioncall functionName="connect_to_database"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="data_used"/>
+    <functioncall functionName="db"/>
+    <functioncall functionName="db_name"/>
+    <functioncall functionName="debug_print_buffer"/>
+    <functioncall functionName="err_msg"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="f"/>
+    <functioncall functionName="fclose"/>
+    <functioncall functionName="fflush"/>
+    <functioncall functionName="fifo_logger"/>
+    <functioncall functionName="fopen"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="full_query"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="insert_sensor"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="logger_message"/>
+    <functioncall functionName="mkfifo"/>
+    <functioncall functionName="next"/>
+    <functioncall functionName="perror"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="pthread_cond_signal"/>
+    <functioncall functionName="pthread_cond_wait"/>
+    <functioncall functionName="rc"/>
+    <functioncall functionName="result"/>
+    <functioncall functionName="sbuffer_get_first_node"/>
+    <functioncall functionName="sbuffer_remove"/>
+    <functioncall functionName="sem_post"/>
+    <functioncall functionName="sem_wait"/>
+    <functioncall functionName="sema_lock"/>
+    <functioncall functionName="sensor_id_temp"/>
+    <functioncall functionName="sql_used"/>
+    <functioncall functionName="sqlite3_close"/>
+    <functioncall functionName="sqlite3_exec"/>
+    <functioncall functionName="sqlite3_free"/>
+    <functioncall functionName="sqlite3_open"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="stdout"/>
+    <functioncall functionName="temp_string"/>
+    <functioncall functionName="temp_temp_value"/>
+    <functioncall functionName="temp_time"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="ts"/>
+    <functioncall functionName="usleep"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="write_logger"/>
+  </FileInfo>
+</analyzerinfo>

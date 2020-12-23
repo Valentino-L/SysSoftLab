@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="236935536">
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;buf_size==0&apos; is redundant or there is possible null pointer dereference: buf_size." verbose="Either the condition &apos;buf_size==0&apos; is redundant or there is possible null pointer dereference: buf_size." cwe="476">
+            <location file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/tcpsock.c" line="186" column="10" info="Null pointer dereference"/>
+            <location file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/tcpsock.c" line="184" column="39" info="Assuming that condition &apos;buf_size==0&apos; is not redundant"/>
+            <symbol>buf_size</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;buf_size==0&apos; is redundant or there is possible null pointer dereference: buf_size." verbose="Either the condition &apos;buf_size==0&apos; is redundant or there is possible null pointer dereference: buf_size." cwe="476">
+            <location file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/tcpsock.c" line="208" column="10" info="Null pointer dereference"/>
+            <location file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/tcpsock.c" line="206" column="39" info="Assuming that condition &apos;buf_size==0&apos; is not redundant"/>
+            <symbol>buf_size</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;result&apos; can be reduced." verbose="The scope of the variable &apos;result&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398">
+            <location file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/tcpsock.c" line="128" column="9"/>
+            <symbol>result</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;result&apos; is assigned a value that is never used." verbose="Variable &apos;result&apos; is assigned a value that is never used." cwe="563">
+            <location file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/tcpsock.c" line="143" column="24"/>
+            <symbol>result</symbol>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="tcp_passive_open" lineNumber="63"/>
+    <functiondecl functionName="tcp_active_open" lineNumber="90"/>
+    <functiondecl functionName="tcp_close" lineNumber="127"/>
+    <functiondecl functionName="tcp_wait_for_connection" lineNumber="158"/>
+    <functiondecl functionName="tcp_send" lineNumber="181"/>
+    <functiondecl functionName="tcp_receive" lineNumber="203"/>
+    <functiondecl functionName="tcp_get_ip_addr" lineNumber="221"/>
+    <functiondecl functionName="tcp_get_port" lineNumber="228"/>
+    <functiondecl functionName="tcp_get_sd" lineNumber="235"/>
+    <functiondecl functionName="tcp_sock_create" lineNumber="242"/>
+    <functiondecl functionName="tcp_passive_open" lineNumber="63"/>
+    <functiondecl functionName="tcp_active_open" lineNumber="90"/>
+    <functiondecl functionName="tcp_close" lineNumber="127"/>
+    <functiondecl functionName="tcp_wait_for_connection" lineNumber="158"/>
+    <functiondecl functionName="tcp_send" lineNumber="181"/>
+    <functiondecl functionName="tcp_receive" lineNumber="203"/>
+    <functiondecl functionName="tcp_get_ip_addr" lineNumber="221"/>
+    <functiondecl functionName="tcp_get_port" lineNumber="228"/>
+    <functiondecl functionName="tcp_get_sd" lineNumber="235"/>
+    <functiondecl functionName="tcp_sock_create" lineNumber="242"/>
+    <functioncall functionName="AF_INET"/>
+    <functioncall functionName="INADDR_ANY"/>
+    <functioncall functionName="IPPROTO_TCP"/>
+    <functioncall functionName="MSG_NOSIGNAL"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="SHUT_RDWR"/>
+    <functioncall functionName="SOCK_STREAM"/>
+    <functioncall functionName="__func__"/>
+    <functioncall functionName="accept"/>
+    <functioncall functionName="addr"/>
+    <functioncall functionName="bind"/>
+    <functioncall functionName="buffer"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="client"/>
+    <functioncall functionName="close"/>
+    <functioncall functionName="connect"/>
+    <functioncall functionName="errno"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="getsockname"/>
+    <functioncall functionName="htonl"/>
+    <functioncall functionName="htons"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="inet_aton"/>
+    <functioncall functionName="inet_ntoa"/>
+    <functioncall functionName="ip_addr"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="listen"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="ntohs"/>
+    <functioncall functionName="p"/>
+    <functioncall functionName="port"/>
+    <functioncall functionName="recv"/>
+    <functioncall functionName="remote_ip"/>
+    <functioncall functionName="remote_port"/>
+    <functioncall functionName="s"/>
+    <functioncall functionName="s_addr"/>
+    <functioncall functionName="sd"/>
+    <functioncall functionName="sendto"/>
+    <functioncall functionName="shutdown"/>
+    <functioncall functionName="sin_addr"/>
+    <functioncall functionName="sin_port"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="socket"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="strerror"/>
+    <functioncall functionName="strncpy"/>
+    <functioncall functionName="tcp_sock_create"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="while"/>
+  </FileInfo>
+</analyzerinfo>

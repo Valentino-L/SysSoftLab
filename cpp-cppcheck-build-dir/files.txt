@@ -1,0 +1,8 @@
+connmgr.a1::connmgr.c
+datamgr.a1::datamgr.c
+main.a1::main.c
+sbuffer.a1::sbuffer.c
+sensor_db.a1::sensor_db.c
+sensor_node.a1::sensor_node.c
+dplist.a1::/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c
+tcpsock.a1::/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/tcpsock.c

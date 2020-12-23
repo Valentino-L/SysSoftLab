@@ -1,0 +1,22 @@
+0 Mon Dec 21 16:25:54 20200 MAIN: debugging is on and additional messages will be writen 
+ 
+1 Mon Dec 21 16:25:54 20200 CONNMANAGER: polllist=>SQL: Connection to SQL server established.
+ 
+2 Mon Dec 21 16:25:54 20200 ||8|1|0||<= polllist
+ 
+3 Mon Dec 21 16:25:55 20200 New table SensorData created.
+ 
+4 Mon Dec 21 16:25:57 20200 CONNMANAGER: polllist=>||8|1|1||||10|1|0||<= polllist
+ 
+5 Mon Dec 21 16:25:57 20200 CONNMANAGER: TCP connection 1 wrote the data to buffer 21,20.191803,1608564357
+ 
+6 Mon Dec 21 16:25:57 20200 A sensor node with 21 has opened a new connection
+ 
+7 Mon Dec 21 16:25:57 20200 DATA: used: buffer => CONNMANAGER: polllist=>SQL: we query :INSERT INTO main.SensorData(sensor_id,sensor_value,timestamp) VALUES (21,20.191803,1608564357);
+ 
+8 Mon Dec 21 16:25:57 20200 ||8|1|0|||d:1|s:0|21|<= buffer
+ 
+9 Mon Dec 21 16:26:42 20200 ||10|1|1||<= polllist
+ 
+10 Mon Dec 21 16:26:42 20200 CONNMANAGER: socket %d has been idle for too long 
+ 

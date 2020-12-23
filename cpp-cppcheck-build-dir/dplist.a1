@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1408809716">
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;list==NULL&apos; is redundant or there is possible null pointer dereference: list." verbose="Either the condition &apos;list==NULL&apos; is redundant or there is possible null pointer dereference: list." cwe="476">
+            <location file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c" line="72" column="5" info="Null pointer dereference"/>
+            <location file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c" line="70" column="18" info="Assignment &apos;list=malloc(sizeof(struct dplist))&apos;, assigned value is 0"/>
+            <location file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c" line="71" column="5" info="Assuming that condition &apos;list==NULL&apos; is not redundant"/>
+            <symbol>list</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;list==NULL&apos; is redundant or there is possible null pointer dereference: list." verbose="Either the condition &apos;list==NULL&apos; is redundant or there is possible null pointer dereference: list." cwe="476">
+            <location file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c" line="73" column="5" info="Null pointer dereference"/>
+            <location file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c" line="70" column="18" info="Assignment &apos;list=malloc(sizeof(struct dplist))&apos;, assigned value is 0"/>
+            <location file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c" line="71" column="5" info="Assuming that condition &apos;list==NULL&apos; is not redundant"/>
+            <symbol>list</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;list==NULL&apos; is redundant or there is possible null pointer dereference: list." verbose="Either the condition &apos;list==NULL&apos; is redundant or there is possible null pointer dereference: list." cwe="476">
+            <location file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c" line="74" column="5" info="Null pointer dereference"/>
+            <location file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c" line="70" column="18" info="Assignment &apos;list=malloc(sizeof(struct dplist))&apos;, assigned value is 0"/>
+            <location file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c" line="71" column="5" info="Assuming that condition &apos;list==NULL&apos; is not redundant"/>
+            <symbol>list</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;list==NULL&apos; is redundant or there is possible null pointer dereference: list." verbose="Either the condition &apos;list==NULL&apos; is redundant or there is possible null pointer dereference: list." cwe="476">
+            <location file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c" line="75" column="5" info="Null pointer dereference"/>
+            <location file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c" line="70" column="18" info="Assignment &apos;list=malloc(sizeof(struct dplist))&apos;, assigned value is 0"/>
+            <location file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c" line="71" column="5" info="Assuming that condition &apos;list==NULL&apos; is not redundant"/>
+            <symbol>list</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;list_node==NULL&apos; is redundant or there is possible null pointer dereference: list_node." verbose="Either the condition &apos;list_node==NULL&apos; is redundant or there is possible null pointer dereference: list_node." cwe="476">
+            <location file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c" line="151" column="5" info="Null pointer dereference"/>
+            <location file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c" line="144" column="23" info="Assignment &apos;list_node=malloc(sizeof(struct dplist_node))&apos;, assigned value is 0"/>
+            <location file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c" line="145" column="5" info="Assuming that condition &apos;list_node==NULL&apos; is not redundant"/>
+            <symbol>list_node</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.h:86:16" call-funcname="dpl_get_reference_at_index" call-argnr="2" file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c" line="245" col="38" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.h:62:11" call-funcname="dpl_insert_at_index" call-argnr="3" file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c" line="334" col="54" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.h:86:16" call-funcname="dpl_get_reference_at_index" call-argnr="1" file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c" line="245" col="12" my-id="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.h:132:16" my-argnr="1"/>
+<function-call call-id="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.h:86:16" call-funcname="dpl_get_reference_at_index" call-argnr="1" file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c" line="250" col="12" my-id="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.h:140:16" my-argnr="1"/>
+<function-call call-id="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.h:62:11" call-funcname="dpl_insert_at_index" call-argnr="2" file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c" line="298" col="41" my-id="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.h:196:11" my-argnr="2"/>
+<function-call call-id="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.h:62:11" call-funcname="dpl_insert_at_index" call-argnr="2" file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c" line="334" col="35" my-id="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.h:208:11" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.h:42:6" my-argnr="1" my-argname="list" file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c" line="81" col="25" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.h:42:6" my-argnr="1" my-argname="list" file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c" line="81" col="25" value="0"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.h:86:16" call-funcname="dpl_get_reference_at_index" call-argnr="2" file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c" line="245" col="38" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.h:62:11" call-funcname="dpl_insert_at_index" call-argnr="3" file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c" line="334" col="54" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.h:86:16" call-funcname="dpl_get_reference_at_index" call-argnr="1" file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c" line="245" col="12" my-id="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.h:132:16" my-argnr="1"/>
+<function-call call-id="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.h:86:16" call-funcname="dpl_get_reference_at_index" call-argnr="1" file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c" line="250" col="12" my-id="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.h:140:16" my-argnr="1"/>
+<function-call call-id="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.h:62:11" call-funcname="dpl_insert_at_index" call-argnr="2" file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c" line="298" col="41" my-id="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.h:196:11" my-argnr="2"/>
+<function-call call-id="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.h:62:11" call-funcname="dpl_insert_at_index" call-argnr="2" file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c" line="334" col="35" my-id="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.h:208:11" my-argnr="2"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.h:42:6" my-argnr="1" my-argname="list" file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c" line="81" col="25" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.h:42:6" my-argnr="1" my-argname="list" file="/home/ingmar/Desktop/Labs/ingmar-malfait/final_assignment/lib/dplist.c" line="81" col="25" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="dpl_create" lineNumber="63"/>
+    <functiondecl functionName="dpl_free" lineNumber="79"/>
+    <functiondecl functionName="dpl_get_reference_at_index" lineNumber="105"/>
+    <functiondecl functionName="dpl_size" lineNumber="116"/>
+    <functiondecl functionName="dpl_insert_at_index" lineNumber="138"/>
+    <functiondecl functionName="dpl_remove_at_index" lineNumber="185"/>
+    <functiondecl functionName="dpl_get_element_at_index" lineNumber="214"/>
+    <functiondecl functionName="dpl_get_index_of_element" lineNumber="224"/>
+    <functiondecl functionName="dpl_get_first_reference" lineNumber="243"/>
+    <functiondecl functionName="dpl_get_last_reference" lineNumber="248"/>
+    <functiondecl functionName="dpl_get_reference_of_element" lineNumber="253"/>
+    <functiondecl functionName="dpl_get_next_reference" lineNumber="263"/>
+    <functiondecl functionName="dpl_get_previous_reference" lineNumber="272"/>
+    <functiondecl functionName="dpl_get_index_of_reference" lineNumber="281"/>
+    <functiondecl functionName="dpl_insert_at_reference" lineNumber="289"/>
+    <functiondecl functionName="dpl_remove_at_reference" lineNumber="304"/>
+    <functiondecl functionName="dpl_remove_element" lineNumber="312"/>
+    <functiondecl functionName="dpl_get_element_at_reference" lineNumber="322"/>
+    <functiondecl functionName="dpl_insert_sorted" lineNumber="331"/>
+    <functiondecl functionName="dpl_create" lineNumber="63"/>
+    <functiondecl functionName="dpl_free" lineNumber="79"/>
+    <functiondecl functionName="dpl_get_reference_at_index" lineNumber="105"/>
+    <functiondecl functionName="dpl_size" lineNumber="116"/>
+    <functiondecl functionName="dpl_insert_at_index" lineNumber="138"/>
+    <functiondecl functionName="dpl_remove_at_index" lineNumber="185"/>
+    <functiondecl functionName="dpl_get_element_at_index" lineNumber="214"/>
+    <functiondecl functionName="dpl_get_index_of_element" lineNumber="224"/>
+    <functiondecl functionName="dpl_get_first_reference" lineNumber="243"/>
+    <functiondecl functionName="dpl_get_last_reference" lineNumber="248"/>
+    <functiondecl functionName="dpl_get_reference_of_element" lineNumber="253"/>
+    <functiondecl functionName="dpl_get_next_reference" lineNumber="263"/>
+    <functiondecl functionName="dpl_get_previous_reference" lineNumber="272"/>
+    <functiondecl functionName="dpl_get_index_of_reference" lineNumber="281"/>
+    <functiondecl functionName="dpl_insert_at_reference" lineNumber="289"/>
+    <functiondecl functionName="dpl_remove_at_reference" lineNumber="304"/>
+    <functiondecl functionName="dpl_remove_element" lineNumber="312"/>
+    <functiondecl functionName="dpl_get_element_at_reference" lineNumber="322"/>
+    <functiondecl functionName="dpl_insert_sorted" lineNumber="331"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="__func__"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="copy"/>
+    <functioncall functionName="current"/>
+    <functioncall functionName="dpl_get_index_of_element"/>
+    <functioncall functionName="dpl_get_index_of_reference"/>
+    <functioncall functionName="dpl_get_reference_at_index"/>
+    <functioncall functionName="dpl_get_reference_of_element"/>
+    <functioncall functionName="dpl_insert_at_index"/>
+    <functioncall functionName="dpl_remove_at_index"/>
+    <functioncall functionName="dpl_size"/>
+    <functioncall functionName="element"/>
+    <functioncall functionName="element_compare"/>
+    <functioncall functionName="element_copy"/>
+    <functioncall functionName="element_free"/>
+    <functioncall functionName="fflush"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="free_element"/>
+    <functioncall functionName="head"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="index"/>
+    <functioncall functionName="insert_copy"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="list"/>
+    <functioncall functionName="list_1"/>
+    <functioncall functionName="list_next"/>
+    <functioncall functionName="list_node"/>
+    <functioncall functionName="list_temp"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="next"/>
+    <functioncall functionName="prev"/>
+    <functioncall functionName="ref_at_index"/>
+    <functioncall functionName="reference"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="stderr"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="while"/>
+  </FileInfo>
+</analyzerinfo>

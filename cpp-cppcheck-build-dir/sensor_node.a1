@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="4168677879">
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;i&apos; is always true" verbose="Condition &apos;i&apos; is always true" cwe="571">
+            <location file="sensor_node.c" line="92" column="12" info="Condition &apos;i&apos; is always true"/>
+            <location file="sensor_node.c" line="91" column="9" info="Assignment &apos;i=1&apos;, assigned value is 1"/>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="lib/tcpsock.h:49:5" call-funcname="tcp_active_open" call-argnr="1" file="sensor_node.c" line="89" col="24" call-argexpr="&client" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="lib/tcpsock.h:49:5" call-funcname="tcp_active_open" call-argnr="3" file="sensor_node.c" line="89" col="24" call-argexpr="server_ip" call-argvaluetype="7" call-argvalue="16"/><function-call call-id="lib/tcpsock.h:85:5" call-funcname="tcp_send" call-argnr="3" file="sensor_node.c" line="98" col="21" call-argexpr="&bytes" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="lib/tcpsock.h:85:5" call-funcname="tcp_send" call-argnr="3" file="sensor_node.c" line="100" col="21" call-argexpr="&bytes" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="lib/tcpsock.h:85:5" call-funcname="tcp_send" call-argnr="3" file="sensor_node.c" line="102" col="21" call-argexpr="&bytes" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="lib/tcpsock.h:60:5" call-funcname="tcp_close" call-argnr="1" file="sensor_node.c" line="108" col="18" call-argexpr="&client" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="lib/tcpsock.h:49:5" call-funcname="tcp_active_open" call-argnr="1" file="sensor_node.c" line="89" col="24" call-argexpr="&client" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="lib/tcpsock.h:49:5" call-funcname="tcp_active_open" call-argnr="3" file="sensor_node.c" line="89" col="24" call-argexpr="server_ip" call-argvaluetype="7" call-argvalue="16"/><function-call call-id="lib/tcpsock.h:85:5" call-funcname="tcp_send" call-argnr="3" file="sensor_node.c" line="98" col="21" call-argexpr="&bytes" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="lib/tcpsock.h:85:5" call-funcname="tcp_send" call-argnr="3" file="sensor_node.c" line="100" col="21" call-argexpr="&bytes" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="lib/tcpsock.h:85:5" call-funcname="tcp_send" call-argnr="3" file="sensor_node.c" line="102" col="21" call-argexpr="&bytes" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="lib/tcpsock.h:60:5" call-funcname="tcp_close" call-argnr="1" file="sensor_node.c" line="108" col="18" call-argexpr="&client" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="66"/>
+    <functiondecl functionName="print_help" lineNumber="118"/>
+    <functiondecl functionName="main" lineNumber="66"/>
+    <functiondecl functionName="print_help" lineNumber="118"/>
+    <functioncall functionName="EXIT_FAILURE"/>
+    <functioncall functionName="EXIT_SUCCESS"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="atoi"/>
+    <functioncall functionName="bytes"/>
+    <functioncall functionName="client"/>
+    <functioncall functionName="drand48"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="fclose"/>
+    <functioncall functionName="fflush"/>
+    <functioncall functionName="fopen"/>
+    <functioncall functionName="fp_log"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="long"/>
+    <functioncall functionName="print_help"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="server_ip"/>
+    <functioncall functionName="server_port"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="sleep"/>
+    <functioncall functionName="sleep_time"/>
+    <functioncall functionName="srand48"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="strncpy"/>
+    <functioncall functionName="tcp_active_open"/>
+    <functioncall functionName="tcp_close"/>
+    <functioncall functionName="tcp_send"/>
+    <functioncall functionName="time"/>
+    <functioncall functionName="ts"/>
+    <functioncall functionName="value"/>
+    <functioncall functionName="void"/>
+    <functioncall functionName="while"/>
+  </FileInfo>
+</analyzerinfo>
